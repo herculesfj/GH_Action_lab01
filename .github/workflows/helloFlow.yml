@@ -3,8 +3,8 @@ on: workflow_dispatch
 jobs:
   first-job:
 	runs-on: ubuntu-latest
-	steps:
+ 	steps:
   	- name: Diga oi
-    	run: echo "Hello World!"
+    	  run: echo "Hello World!"
   	- name: Diga valeu
-    	run: echo "Valeu - bye!"
+    	  run: echo "Valeu - bye!"
